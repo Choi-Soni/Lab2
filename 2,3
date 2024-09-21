@@ -1,9 +1,6 @@
-# Read the population of the universe
 population = int(input("Enter the population of the universe: "))
 
-# Calculate the number of survivors
 survivors = (population + 1) // 2  # Round up if the population is odd
 
-# Display the number of survivors
 print(survivors)
 
