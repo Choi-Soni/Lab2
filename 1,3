@@ -1,0 +1,6 @@
+# Get input from the user
+first_number = int(input("Enter the first number: "))
+
+# Print the first number and the next two consecutive numbers
+for i in range(3):
+    print(first_number + i)
