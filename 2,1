@@ -1,0 +1,11 @@
+# Read the number of students and tangerines
+N = int(input())  # number of students
+K = int(input())  # number of tangerines
+
+# Calculate how many each student gets and the remainder
+tangerines_per_student = K // N
+remainder_in_basket = K % N
+
+# Display the results
+print(tangerines_per_student)
+print(remainder_in_basket)
