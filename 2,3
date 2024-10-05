@@ -1,6 +1,6 @@
 population = int(input("Enter the population of the universe: "))
 
-survivors = (population + 1) // 2  # Round up if the population is odd
+survivors = (population + 1) // 2 
 
 print(survivors)
 
